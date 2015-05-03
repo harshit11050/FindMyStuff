@@ -1,0 +1,198 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kushagar.iiitd_lostn_found.ReportLostItem"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:text="Item"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            />
+
+        <com.cengalabs.flatui.views.FlatEditText
+            android:id="@+id/itemname"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="3dip"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:gravity="center"
+            android:hint="Object Lost"
+            android:includeFontPadding="true"
+            flatui:fl_fieldStyle="fl_box"
+            flatui:fl_theme="@array/grass" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:text="Location"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            />
+
+        <com.cengalabs.flatui.views.FlatEditText
+            android:id="@+id/itemlocation"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="3dip"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:gravity="center"
+            android:hint="BoysHostel,GirlsHostel "
+            android:includeFontPadding="true"
+            flatui:fl_fieldStyle="fl_box"
+            flatui:fl_theme="@array/grass" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_marginTop="190dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:text="More Details"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            />
+
+        <com.cengalabs.flatui.views.FlatEditText
+            android:id="@+id/itemdetails"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dip"
+            android:layout_weight="1"
+            android:maxLines="5"
+            android:gravity="center"
+            android:hint="Describe the item Lost Explicitly"
+            android:includeFontPadding="true"
+            flatui:fl_fieldStyle="fl_box"
+            flatui:fl_theme="@array/grass" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+       <!-- <TextView
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:text="Last Seen On"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            /> -->
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/button_pickdate"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="Pick Date"
+            android:gravity="center"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_margin="3dp"
+            flatui:fl_textAppearance="fl_none"
+            flatui:fl_blockButtonEffectHeight="3dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_marginTop="360dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="115dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginTop="300dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:layout_gravity="top"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/ReportLost"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:text="Report"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#1abc9c"
+            android:textColor="#1abc9c"
+            android:layout_margin="10dp"
+            flatui:fl_textAppearance="fl_none"
+            flatui:fl_blockButtonEffectHeight="3dp" />
+    </LinearLayout>
+
+</FrameLayout>
