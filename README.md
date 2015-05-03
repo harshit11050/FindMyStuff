@@ -17,3 +17,5 @@ The application consists of Client and Server end.<br/>
   Jackson (for data marshalling and de-marshalling)<br/>
   Java Mail Api (for sending mail’s from the server side)<br/>
   Apache Tomcat <br/>
+  
+  ![alt tag](https://lh6.googleusercontent.com/-FTqT4ioSj2g/VUVgg9E-XRI/AAAAAAAADVI/W4o--2TdMFU/w346-h577-no/Screenshot_2015-05-03-05-05-45.png)
